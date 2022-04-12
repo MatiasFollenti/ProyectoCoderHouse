@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(224, 224, 224);
+    line-height: 1.5;
+}
+/* grid areas*/
+.contenedor {
+    display: grid;
+    grid-template-areas:
+     "header header header header"
+     "Inicio Inicio Inicio aside"
+     "Cabañas Cabañas Cabañas  aside"
+     "Casasdelarbol Casasdelarbol Casasdelarbol aside"
+     "Servicios Servicios Servicios aside"
+     "Reservas Reservas Reservas aside"
+     "Contacto Contacto Contacto ."
+     "footer footer footer footer" ;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    font-family: 'Indie Flower', cursive;
+}
+header {
+    grid-area: header;
+}
+.header {
+    background-color: rgb(224, 224, 224);
+    padding: 20px 0;
+    display: flex;
+    justify-content: end;
+}
+.menu-navegable {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+#Inicio {
+    background-color:rgb(224, 224, 224);
+    grid-area: Inicio;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+.video-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Cabañas {
+    background-color: rgb(224, 224, 224);
+    grid-area: Cabañas;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+#Casasdelarbol {
+    background-color: rgb(224, 224, 224) ;
+    grid-area: Casasdelarbol;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+#Servicios {
+    background-color: rgb(224, 224, 224) ;
+    grid-area: Servicios;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+#Reservas {
+    background-color: rgb(224, 224, 224) ;
+    grid-area: Reservas;
+    margin-top: 00px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+#Contacto {
+    background-color: rgb(224, 224, 224);
+    grid-area: Contacto;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+aside {
+    background-color: rgb(224, 224, 224);
+    grid-area: aside;
+    margin-left: auto;
+}
+footer {
+    background-color: rgb(224, 224, 224);
+    grid-area: footer;
+    margin-top: 0px;
+    margin-right: 0;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: chocolate;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    display: flex;
+    justify-content: flex-start;
+}
+h2 {
+    color: chocolate;
+    font-weight: bold;
+}
+h3{
+    color: chocolate;
+    font-weight: bold;
+}
+h4 {
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: black;
+}
+ul li {
+    color: black;
+}
+.imagencarrousel {
+    width: 300px;
+    
+}
+.form-row {
+    color: black;
+}
+.tipo-alojamiento {
+    color: black;
+}
